@@ -3,20 +3,21 @@ html, body {
   padding: 0;
 }
 
-.wrapper{
+/*.wrapper{
   display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: #719900;
-
-}
-
-.wrapperGray {
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   width: 100vw;
-    background-color: #ccc;
+  background-color: #719900;
+}*/
+
+.wrapperGray {
+  /*left: 0;
+  right: 0;*/
+  /*height: 100vh;*/
+  /*width: 100%;*/
+  background-color: #ccc;
 }
 
 .logo {
@@ -26,12 +27,12 @@ html, body {
 }
 
 .contentWrap {
-  padding: 25px;
+  /*padding: 25px;*/
 }
 
 .portfolioBox {
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 200px;
   background-color: #719900;
   border: 5px solid #ccc;
   box-shadow: 0 0 7px #666;
