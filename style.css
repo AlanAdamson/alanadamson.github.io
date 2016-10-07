@@ -28,6 +28,8 @@ html, body {
 }
 
 .contentWrap {
+  margin-top: 0;
+  margin-bottom: auto;
   padding: 25px;
   /*min-width: 400px;*/
 }
