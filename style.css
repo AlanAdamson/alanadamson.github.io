@@ -23,7 +23,7 @@ html, body {
 
 .logo {
   font-family: 'Arial', sans-serif;
-  color: #f90;
+  color: #FA8800;
   font-size: 5em;
 }
 
@@ -46,7 +46,7 @@ html, body {
 }
 
 .boxLabel {
-  background-color: #f90;
+  background-color: #FA8800;
   width: 120px;
   margin: 20px 0 0 190px;
   padding: 3px 0 3px 7px;
@@ -60,12 +60,34 @@ html, body {
 .workDesc {
   width: 300px;
   height: 150px;
-  padding: 1% 0 0 5%;
+  padding: 1% 0 0 5%; color: #555;
+  font-family: 'Arial', sans-serif;
 }
 
 .indvidWrap {
   display: flex;
   flex-direction: row;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #719900;
+  padding: 10px;
+  box-shadow: 0 0 20px #000;
+}
+
+.logoMed {
+  font-family: 'Arial', sans-serif;
+  color: #FA8800;
+  font-size: 4em;
+  font-weight: bold;
+  float: left;
+  /*-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.25);*/
+}
+.logoMed::before {
+  text-shadow: 2px 2px 0 #ffffff;
 }
 
 @media screen and (max-width: 630px) {
