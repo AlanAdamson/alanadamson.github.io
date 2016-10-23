@@ -23,7 +23,7 @@ html, body {
 
 .logo {
   font-family: 'Arial', sans-serif;
-  color: #FF4500;
+  color: #FA8800;
   font-size: 5em;
 }
 
@@ -46,7 +46,7 @@ html, body {
 }
 
 .boxLabel {
-  background-color: #FF4500;
+  background-color: #FA8800;
   width: 120px;
   margin: 20px 0 0 190px;
   padding: 3px 0 3px 7px;
@@ -79,7 +79,7 @@ html, body {
 
 .logoMed {
   font-family: 'Arial', sans-serif;
-  color: #FF4500;
+  color: #FA8800;
   font-size: 4em;
   font-weight: bold;
   float: left;
