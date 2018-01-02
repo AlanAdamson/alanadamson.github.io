@@ -24,9 +24,9 @@ header {
 
 .logo {
   font-family: 'Lobster', 'Arial', sans-serif;
-  color: #338099;
+  color: #f60;
   font-size: 5em;
-  font-weight: normal;
+  font-weight: normal; 
   width: 586px;
 }
 
@@ -56,7 +56,7 @@ ui-view {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 25px 0 0 0;
+  margin: 5px 0 0 0;
 }
 
 .profileDesc {
