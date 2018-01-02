@@ -13,7 +13,7 @@ angular.module('mainApp', ['ui.router'])
   })
 
   .state('about', {
-    url: '/about',
+    url: '/',
     templateUrl: './views/about.html'
   })
 
