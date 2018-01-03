@@ -269,7 +269,6 @@ footer {
   }
 
   .profileDesc {
-    width: 90%;
   }
 
 }
@@ -296,7 +295,6 @@ header {
   }
 
   .profileDesc {
-    width: 80%;
     font-size: 0.9em;
     margin: 0 0 0 40px;
   }
