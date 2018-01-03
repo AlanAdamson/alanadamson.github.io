@@ -273,6 +273,16 @@ footer {
   padding: 25px 0 25px 0;
   border-top: 1px solid #999;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  
+  body {
+    height100%;
+  }
+
+}
+
+
 @media screen and (max-width: 1096px) {
 
   .contentWrap {
