@@ -7,6 +7,7 @@ body {
   padding: 0;
   background-color: #333;
   font-family: 'Arial', sans-serif;
+  font-size: 1em;
   color: #ccc;
   min-height: 100%;
   display: flex;
@@ -268,7 +269,7 @@ footer {
   }
 
   .profileDesc {
-    width: 420px;
+    width: 90%;
   }
 
 }
@@ -295,7 +296,8 @@ header {
   }
 
   .profileDesc {
-    width: auto;
+    width: 80%;
+    font-size: 0.9em;
   }
 
   .workDescrip {
