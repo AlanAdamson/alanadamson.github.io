@@ -304,6 +304,10 @@ footer {
     width: 293px;
   }
 
+header {
+    display: flex;
+    flex-direction: column;
+
   .contentWrap {
     flex-direction: column;
   }
