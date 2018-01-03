@@ -290,7 +290,7 @@ header {
   }
 
   .profileDesc {
-    width: unset;
+    width: 100%;
   }
 
   .workDescrip {
