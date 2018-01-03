@@ -62,7 +62,6 @@ ui-view {
 
 .profileDesc {
   margin: 0 0 0 7px;
-  width: 420px;
 }
 
 .profileRight {
@@ -176,34 +175,7 @@ hr {
   flex-direction: row;
 }
 
-/*.logoMed::before {
-  text-shadow: 2px 2px 0 #ffffff;
-}*/
 
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s 10s;
-    -moz-animation: blink 0.7s 10s;
-    animation: blink 0.7s 10s;
-}
-
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
 
 .is-hidden {
   display: none !important;
@@ -288,6 +260,10 @@ footer {
 
   .contentWrap {
     max-width: 720px;
+  }
+
+  .profileDesc {
+    width: 420px;
   }
 
 }
