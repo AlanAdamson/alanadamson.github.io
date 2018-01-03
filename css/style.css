@@ -67,7 +67,7 @@ ui-view {
 }
 
 .profileDesc {
-  margin: 0 0 0 200px;
+  margin: 0 0 0 40px;
 }
 
 .profileRight {
@@ -296,6 +296,7 @@ header {
 
   .profileDesc {
     font-size: 0.9em;
+    margin: 0 0 0 200px;
   }
 
   .workDescrip {
