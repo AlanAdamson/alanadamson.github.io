@@ -277,7 +277,7 @@ footer {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   
   body {
-    height100%;
+    height: 100%;
   }
 
 }
