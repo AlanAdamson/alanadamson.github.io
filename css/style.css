@@ -289,6 +289,10 @@ header {
     flex-direction: column;
   }
 
+  .profileDesc {
+    width: unset;
+  }
+
   .workDescrip {
     display: block;
   }
