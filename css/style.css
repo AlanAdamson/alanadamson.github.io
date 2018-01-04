@@ -72,6 +72,7 @@ ui-view {
 
 .profileDesc {
   padding: 0 40px 0 40px;
+  line-height: 1.5em;
 }
 
 .profileRight {
@@ -285,6 +286,7 @@ header {
 
   .profileDesc {
     font-size: 0.91em;
+    width: 230px;
   }
 
   .workDescrip {
@@ -293,6 +295,7 @@ header {
 
   .profile {
     flex-direction: column;
+    width: 230px;
   }
 
   .profileRight {
