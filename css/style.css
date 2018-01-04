@@ -8,7 +8,7 @@ body {
   background-color: #333;
   font-family: 'Arial', sans-serif;
   font-size: 1em;
-  color: #ccc;
+  color: #bbb;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,10 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+h3 {
+  color: #fff;
 }
 
 .logo {
@@ -63,17 +67,16 @@ ui-view {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 5px 0 0 0;
+  width: 470px;
 }
 
 .profileDesc {
-  margin: 0 0 0 40px;
+  padding: 0 40px 0 40px;
 }
 
 .profileRight {
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 25px;
   align-content: space-around;
 }
 
@@ -91,20 +94,7 @@ a:hover, a:hover > svg {
   fill: #ccd38a;
 }
 
-hr {
-  width: 500px;
-  margin: 25px;
-}
-
-.myName {
-  font-size: 2.5em;
-  font-family: 'Lobster', 'Arial', sans-serif;
-  margin: 0;
-  color: #338099;
-}
-
 .profilePic {
-/*   width: 20%; */
 }
 
 .portfolioBox {
@@ -181,8 +171,6 @@ hr {
   flex-direction: row;
 }
 
-
-
 .is-hidden {
   display: none !important;
 }
@@ -190,10 +178,6 @@ hr {
 .bold {
   font-weight: bolder;
   color: #000;
-}
-
-.ti-container {
-  white-space: nowrap;
 }
 
 .boxBorder {
@@ -249,7 +233,8 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 500px;
-  padding: 25px 0 25px 0;
+  margin: 15px 0 15px 0;
+  padding: 15px 0 0 0;
   border-top: 1px solid #999;
 }
 
